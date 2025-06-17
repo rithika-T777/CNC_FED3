@@ -13,7 +13,7 @@
 <body>
     <div class="container">
         <h1>Contact Us</h1>
-        <form>
+        <form method="post" action="thankyou.html">
             <div class="form-elements">
                 <p>Feel free to contact us if you have any question. We’ll answer your request as soon as possible!</p>
                 <input type="text" id="name" name="name" placeholder="Name" required>
@@ -21,6 +21,7 @@
                 <textarea id="message" name="message" placeholder="Message" required></textarea>
             </div>
             <div class="btn">
+                <button type="button" onclick="history.back()">Back</button>
                 <button type="submit">Submit</button>
                 </div>
         </form>
